@@ -38,9 +38,14 @@ windows
 .\build\Release\client.exe
 ```
 
-windows generic client with ncat
+Windows generic client with ncat
 ```bash
 ncat -u 127.0.0.1 9000
+```
+
+Linux generic client
+```bash
+nc -u 127.0.0.1 9000
 ```
 
 Type messages in the client (e.g., `hello`, `exit`).
