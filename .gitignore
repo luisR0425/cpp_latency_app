@@ -1,0 +1,64 @@
+# ===== C++ & CMake build files =====
+build/
+build*/
+out/
+bin/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ===== Executables and binaries =====
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
+# ===== Logs =====
+latency.log
+latency_client.log
+*.log
+
+# ===== Editor / IDE files =====
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln
+*.vcxproj*
+*.ncb
+*.aps
+*.opendb
+
+# ===== OS / system files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Temporary / backup files =====
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# ===== Python virtual env (if any tools use it) =====
+.venv/
+env/
+venv/
+
+# ===== Cache folders =====
+.cache/
+.clangd/
+.clang-format-temp/
