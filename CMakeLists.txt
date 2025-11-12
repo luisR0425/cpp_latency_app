@@ -9,8 +9,6 @@ if(MSVC)
 endif()
 
 add_library(core
-    src/domain/Message.cpp
-    src/application/MessageHandler.cpp
     src/infrastructure/Logger.cpp
     src/infrastructure/UdpServer.cpp
     src/infrastructure/UdpClient.cpp

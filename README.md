@@ -51,7 +51,5 @@ nc -u 127.0.0.1 9000
 Type messages in the client (e.g., `hello`, `exit`).
 
 ## Architecture
-- `domain/Message.hpp`: entity + domain rule
-- `application/MessageHandler`: use case; depends on `MessagePort` interface
 - `infrastructure/UdpServer` & `UdpClient`: adapters (sockets)
 - `infrastructure/Logger`: simple console+file logger (no ANSI codes)
